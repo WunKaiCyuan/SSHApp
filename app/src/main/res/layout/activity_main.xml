@@ -17,7 +17,7 @@
         android:textSize="24sp"></TextView>
 
     <EditText
-        android:id="@+id/etUserName"
+        android:id="@+id/etAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -25,7 +25,7 @@
         tools:text="192.168.0.1" />
 
     <EditText
-        android:id="@+id/etAddress"
+        android:id="@+id/etUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -39,6 +39,12 @@
         android:inputType="textPassword"
         android:hint="enter password"
         tools:text="11111111" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="開始連線" />
 
     <EditText
         android:id="@+id/etCommand"
